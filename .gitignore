@@ -1,0 +1,15 @@
+
+.DS_Store
+
+*.iml
+
+articles/0-9A-B
+articles/0-9A-B.xml
+
+.idea/
+.ipynb_checkpoints/
+*.pyc
+snorkel.db
+snorkel.db-journal
+.ipynb_checkpoints/main-checkpoint.ipynb
+.ipynb_checkpoints/main-checkpoint.ipynb
