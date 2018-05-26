@@ -1,4 +1,5 @@
 # Markerville Backend
+This the Github repository for the Stanford Canary Center's Markerville system's backend (MarkerSub/Petrel). Examples of machine output can be viewed in /outputs. 
 
 ### 1. Corpus Processing
 * ##### Given that a model already exist for the desired entity
