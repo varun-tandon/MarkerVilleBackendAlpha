@@ -1,5 +1,5 @@
 # Markerville Backend
-This the Github repository for the Stanford Canary Center's Markerville system's backend (MarkerSub/Petrel). Examples of machine output can be viewed in /outputs. 
+This the Github repository for the Stanford Canary Center's Markerville system's backend (MarkerSub/Petrel). Examples of machine output can be viewed in /outputs. The BiomarkerConditionTraining.ipynb is placed outside of /EntityTrainingNotebooks as an example of the model training pipeline.
 
 ## Files In This Repo
 * /TROP2_outputs - contains data extracted from a corpus of 281 TROP2 full text papers.
@@ -12,7 +12,7 @@ This the Github repository for the Stanford Canary Center's Markerville system's
 * /dev_files - experimental files and development scripts
 * /outputs - extracted data for over 10,000 research papers (the entirety of PubMed Central's Open Access corpus articles beginning with 0-9A-B).
 * /snorkel - Snorkel library files
-*[Entity]TrainingNotebooks - Jupyter notebooks containing training mechanisms using Snorkel. Best example is BiomarkerConditionTraining.ipynb (these notebooks still require cleaning of comments and print statements).
+* /EntityTrainingNotebooks - Jupyter notebooks containing training mechanisms using Snorkel. Best example is BiomarkerConditionTraining.ipynb (these notebooks still require cleaning of comments and print statements).
 * matchers.py - heuristics for entity matching
 * LF.py - heuristics for unsupervised learning component of model
 * pipeline.py - use of a trained model to evaluate extracted entities
