@@ -1,6 +1,22 @@
 # Markerville Backend
 This the Github repository for the Stanford Canary Center's Markerville system's backend (MarkerSub/Petrel). Examples of machine output can be viewed in /outputs. 
 
+## Files In This Repo
+* /TROP2_outputs - contains data extracted from a corpus of 281 TROP2 full text papers.
+	* TROP2_machine_processed_predictions_[entity]_output.csv - files containing the output of the model with evaluations of biomarker-entity relations.
+	* TROP2_data.csv - amalgamation of the entity data
+	* TROP2_positive_data.csv - exclusively the relations that were marked as positive relationships
+	
+* /articles - gold truth data and document ID mapping
+* /databases - entity databases (used in conjunction with heuristics) for entity matchers
+* /dev_files - experimental files and development scripts
+* /outputs - extracted data for over 10,000 research papers (the entirety of PubMed Central's Open Access corpus articles beginning with 0-9A-B).
+* /snorkel - Snorkel library files
+* Biomarker[Entity]Training.ipynb - jupyter notebooks containing training mechanisms using Snorkel. Best example is BiomarkerConditionTraining.ipynb (these notebooks still require cleaning of comments and print statements).
+* matchers.py - heuristics for entity matching
+* LF.py - heuristics for unsupervised learning component of model
+* pipeline.py - use of a trained model to evaluate extracted entities
+
 ### 1. Corpus Processing
 * ##### Given that a model already exist for the desired entity
 ```python
